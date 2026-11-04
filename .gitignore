@@ -1,0 +1,79 @@
+# Python environments, caches, coverage and build output
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration and credentials (use the in-app Settings screen)
+config.json
+config.local.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+oauth_client_secret*.json
+youtube_client_secret*.json
+token*.json
+
+# Generated project media, working files and local screenshots
+audio_output/
+output_audio/
+temp_audio/
+output/
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.mp4
+*.mov
+*.webm
+*.zip
+
+# gpt2api local state (API keys, Docker volumes)
+/gpt2api/.local/
+
+# Downloaded optional Real-ESRGAN runtime and model weights
+/tools/realesrgan/*
+!/tools/realesrgan/README_windows.md
+
+# Local agent / browser tooling and editor settings
+/.claude/
+/.agents/
+/.mimocode/
+/.playwright-cli/
+playwright-report/
+test-results/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and operating-system files
+*.log
+Thumbs.db
+.DS_Store
+getComputedStyle(el).backdropFilter!
+
+secret/
+
+# Autopilot run artifacts (thumbnails, logs, state) stay local
+autopilot/*/runs/

@@ -1,0 +1,72 @@
+{
+  "channel_name": "Tonton Thông Thái",
+  "locale": "vi-VN",
+  "youtube": {
+    "language": "vi",
+    "category_id": "27",
+    "channel_id": "UCaXYjq7P7FlWt4G3e35Qm2A"
+  },
+  "timezone": "Asia/Ho_Chi_Minh",
+  "video_settings": {
+    "videoEncoder": "nvidia_nvenc",
+    "quality": "high",
+    "overwriteMode": "version",
+    "videoMode": "scenes",
+    "autoGenerateScenesAfterReferences": false,
+    "directorUseVisualPlan": true,
+    "sceneReveal": {
+      "enabled": false,
+      "effect": "pencil",
+      "durationSec": 2,
+      "pattern": "auto",
+      "actor": "none"
+    }
+  },
+  "subtitle_settings": {
+    "fontFamily": "JetBrains Mono NL SemiBold",
+    "fontSize16x9": 54,
+    "fontSize9x16": 72,
+    "textColor": "#ffffff",
+    "outlineColor": "#000000",
+    "outlineWidth": 3,
+    "backgroundEnabled": false,
+    "backgroundColor": "#000000",
+    "backgroundOpacity": 0.55,
+    "bold": true,
+    "align": "center",
+    "position": "bottom",
+    "marginX": 90,
+    "marginY": 150,
+    "maxWidthPct": 82,
+    "lineHeight": 1.12,
+    "maxCharsPerLine16x9": 42,
+    "maxLines16x9": 2,
+    "maxCueChars16x9": 110,
+    "maxCueWords16x9": 24,
+    "maxCharsPerLine9x16": 24,
+    "maxLines9x16": 2,
+    "maxCueChars9x16": 60,
+    "maxCueWords9x16": 18,
+    "subtitleLayout16x9": {
+      "x": 50,
+      "y": 86,
+      "widthPct": 82,
+      "locked": false
+    },
+    "subtitleLayout9x16": {
+      "x": 50,
+      "y": 86,
+      "widthPct": 82,
+      "locked": false
+    },
+    "backgroundMusicEnabled": false,
+    "backgroundMusicFile": "",
+    "backgroundMusicVolume": 15,
+    "burnSubtitles": false,
+    "renderTargets": {
+      "16x9": true,
+      "9x16": false
+    },
+    "verticalVideoMode": "crop"
+  }
+}
